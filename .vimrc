@@ -19,19 +19,21 @@ filetype indent on
 "set listchars = tab:>-,trail:- " 将制表符显示为'>---',将行尾空格显示为'-'
 "set listchars=tab:.\ ,trail:.   " 将制表符显示为'.   '
 
-set autochdir                   " 自动设置目录为正在编辑的文件所在的目录
+"open this setting will make ctags error
+"set autochdir                   " 自动设置目录为正在编辑的文件所在的目录
+
 
 " 设置字体
 
 "set guifont=Bitstream\ Vera\ Sans\ consolas:h12
-set guifont=consolas:h12
+"set guifont=consolas:h12
 "set guifont=Monaco:h12
 
 "Set to auto read when a file is changed from the outside
 set autoread
 
-"Have the mouse enabled all the time:
-set mouse=a
+"Have the mouse enabled all the time. close because crt can't use mouse
+"set mouse=a
 
 
 nmap <leader>w :w!<cr>
