@@ -49,8 +49,6 @@ map <leader>q :q<cr>
 map <leader>u :undolist<cr>
 "Fast editing of .vimrc
 map <leader>e :e ~/.buffer<cr>
-"Open Files Dir
-map <leader>f :Ex<cr>
 "Remap VIM 0
 map 0 ^
 "Switch to current dir
@@ -69,15 +67,15 @@ syntax enable
 set background=dark
 colorscheme evening 
 
-map <leader>1 :set syntax=xhtml<cr>
-map <leader>2 :set ft=css<cr>
-map <leader>3 :set ft=javascript<cr>
-map <leader>4 :set syntax=python<cr>
-map <leader>5 :set ft=php<cr>
-map <leader>6 :set ft=erlang<cr>
-map <leader>7 :set ft=lua<cr>
-map <leader>8 :set ft=c<cr>
-map <leader>$ :syntax sync fromstart<cr>
+map <leader>f1 :set syntax=xhtml<cr>
+map <leader>f2 :set ft=css<cr>
+map <leader>f3 :set ft=javascript<cr>
+map <leader>f4 :set syntax=python<cr>
+map <leader>f5 :set ft=php<cr>
+map <leader>f6 :set ft=erlang<cr>
+map <leader>f7 :set ft=lua<cr>
+map <leader>f8 :set ft=c<cr>
+map <leader>f$ :syntax sync fromstart<cr>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -111,16 +109,16 @@ map <leader>z1 : NERDTree<cr>
 map <leader>z2 : TlistToggle<cr>
 
 "Tabbar
-noremap <leader>t1 : tabnext 1<cr>
-noremap <leader>t2 : tabnext 2<cr>
-noremap <leader>t3 : tabnext 3<cr>
-noremap <leader>t4 : tabnext 4<cr>
-noremap <leader>t5 : tabnext 5<cr>
-noremap <leader>t6 : tabnext 6<cr>
-noremap <leader>t7 : tabnext 7<cr>
-noremap <leader>t8 : tabnext 8<cr>
-noremap <leader>t9 : tabnext 9<cr>
-noremap <leader>t0 : tabnext 10<cr>
+noremap <leader>1 : tabnext 1<cr>
+noremap <leader>2 : tabnext 2<cr>
+noremap <leader>3 : tabnext 3<cr>
+noremap <leader>4 : tabnext 4<cr>
+noremap <leader>5 : tabnext 5<cr>
+noremap <leader>6 : tabnext 6<cr>
+noremap <leader>7 : tabnext 7<cr>
+noremap <leader>8 : tabnext 8<cr>
+noremap <leader>9 : tabnext 9<cr>
+noremap <leader>0 : tabnext 10<cr>
 
 
 function MyTabLine()
