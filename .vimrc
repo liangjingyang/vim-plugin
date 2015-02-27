@@ -4,6 +4,8 @@ let g:mapleader = ","
 
 set nu
 set shiftwidth=4
+set hlsearch
+set nrformats=
 
 "Get out of VI's compatible mode..
 set nocompatible
