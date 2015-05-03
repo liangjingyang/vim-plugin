@@ -9,6 +9,8 @@ set shiftwidth=4
 set hlsearch
 set nrformats=
 
+au FileType ruby set softtabstop=2 | set shiftwidth=2
+
 "Get out of VI's compatible mode..
 set nocompatible
 
@@ -79,6 +81,7 @@ map <leader>f5 :set ft=php<cr>
 map <leader>f6 :set ft=erlang<cr>
 map <leader>f7 :set ft=lua<cr>
 map <leader>f8 :set ft=c<cr>
+map <leader>f9 :set ft=ruby<cr>
 map <leader>f$ :syntax sync fromstart<cr>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
